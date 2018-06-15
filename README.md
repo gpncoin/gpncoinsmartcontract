@@ -20,7 +20,7 @@ contract owned {
     }
 
 
-contract GPNCoin is owned {
+contract GPN is owned {
     // Public variables of the token
     string public name;
     string public symbol;
@@ -29,7 +29,7 @@ contract GPNCoin is owned {
     uint256 public totalSupply;
     address public centralMinter;
     uint public minBalanceForAccounts;
-    uint minimumBalanceInFinney=5;
+    uint minimumBalanceInFinney=1;
     uint256 public sellPrice;
     uint256 public buyPrice;
      uint256 public unitsOneEthCanBuy;     // How many units of your coin can be bought by 1 ETH?
